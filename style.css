@@ -1,0 +1,37 @@
+body {
+	background: #EBF5FF;
+	padding: 10px;
+	font-family: Lucida;
+	color: navy;
+}
+
+h2 {
+	border: 2px dashed navy;
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+p {
+	text-align: justify;
+	padding: 10px;
+}
+
+img {
+	display: block;
+	margin: 20px;
+}
+
+a {
+	border: 2px dashed navy;
+	text-align: center;
+	margin: 20px;
+	padding: 10px;
+	text-decoration: none;
+	background-color: white;
+}
+
+a:hover {
+	background-color: #FFEBFF;
+}
