@@ -8,6 +8,7 @@ body {
 h2 {
 	border: 2px dashed navy;
 	text-align: center;
+	background-color: white;
 	margin: auto;
 	width: 50%;
 	padding: 10px;
@@ -21,17 +22,29 @@ p {
 img {
 	display: block;
 	margin: 20px;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 a {
 	border: 2px dashed navy;
 	text-align: center;
-	margin: 20px;
 	padding: 10px;
+	width: 42%;
+	display: inline-block;
 	text-decoration: none;
 	background-color: white;
 }
 
+.links {
+    margin: auto;
+    width: 50%;
+}
+
 a:hover {
 	background-color: #FFEBFF;
+}
+
+li {
+	width: 95%;
 }
