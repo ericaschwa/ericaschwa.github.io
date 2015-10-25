@@ -26,7 +26,7 @@ img {
     margin-right: auto;
 }
 
-a {
+/*a {
 	border: 2px dashed navy;
 	text-align: center;
 	padding: 10px;
@@ -34,7 +34,7 @@ a {
 	display: inline-block;
 	text-decoration: none;
 	background-color: white;
-}
+}*/
 
 .links {
     margin: auto;
@@ -47,4 +47,8 @@ a:hover {
 
 li {
 	width: 95%;
+}
+
+.italic {
+	font-style: italic;
 }
