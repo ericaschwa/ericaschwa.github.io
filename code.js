@@ -25,8 +25,9 @@ app.controller('resumeCtrl', function($scope) {
     ];
     $scope.experience = [
     	{'title': 'Software Engineering Intern at MITRE, Summer 2015', 'tasks': [
-    		'Prototyped a modern, thin client user interface',
-			'Presented project to the upper level management at the Intern Innovation Brown Bag'
+    		'Prototyped a modern, thin client user interface for an existing system of record',
+			'Presented project to the upper level management at the Intern Innovation Brown Bag',
+            'Practiced agile scrum methods for collaboration with a software development team'
     	]},
     	{'title': 'Intern at the Social Perception Lab at Dartmouth College, Summer 2012 and Summer 2014', 'tasks': [
     		'Adapted object and face recognition tests to be accessible online',
