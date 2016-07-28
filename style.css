@@ -1,5 +1,5 @@
 .emphasize {
-	color:#0D0D7A;
+    color:#0D0D7A;
 }
 ul {
     list-style: none;
@@ -22,48 +22,48 @@ li:before {
     font-size: 20px;
 }
 .resume {
-	color:black;
-	margin-left: 20px;
+    color:black;
+    margin-left: 20px;
 }
 .navy {
-	background-color: #0D0D7A;
-	margin-right: 0px;
-	margin-top: -10px;
-	padding:10px;
+    background-color: #0D0D7A;
+    margin-right: 0px;
+    margin-top: -10px;
+    padding:10px;
 }
 .grey {
-	background-color: #C1C1DB;
-	height:70px;
-	margin-left: 0px;
-	margin-top: -10px;
-	padding:10px;
+    background-color: #C1C1DB;
+    height:70px;
+    margin-left: 0px;
+    margin-top: -10px;
+    padding:10px;
 }
 .name {
-	font-size: 36px;
-	color:white;
-	z-index: 100;
-	margin-left:20px;
+    font-size: 36px;
+    color:white;
+    z-index: 100;
+    margin-left:20px;
 }
 .mypic {
-	width:140px;
-	position: absolute;
-	left: 50%;
-	top: 160%;
-	transform: translate(-50%,-50%);
+    width:140px;
+    position: absolute;
+    left: 50%;
+    top: 160%;
+    transform: translate(-50%,-50%);
 }
 .myicon {
-	height:50px;
-	display:inline;
-	margin:5px;
+    height:50px;
+    display:inline;
+    margin:5px;
 }
 .info {
-	text-align: center;
+    text-align: center;
 }
 body {
-		font-family: 'Raleway', sans-serif;
-		text-align: left;
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
 }
 h4 {
-	font-weight: bold;
-	color:#0D0D7A;
+    font-weight: bold;
+    color:#0D0D7A;
 }
