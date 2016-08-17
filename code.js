@@ -24,33 +24,37 @@ app.controller('resumeCtrl', function($scope) {
         'Theory of Computation'
     ];
     $scope.experience = [
-        {'title': 'Software Engineering Intern at SurveyMonkey, Summer 2016 (Present)',
+        {'title': 'Teaching Fellow & Senior Lab Leader for Data Structures, 2015 - Present',
          'tasks': [
-            'Create an event log to display the activity of a given account on the site',
-            'Utilize tools such as RabbitMQ, Pyramid, and Jinja2 to create a complete, full-stack product'
+            'Directed discussion of topic matter and lab assignments',
+            'Developed & wrote specification for standard final project, as well as optional independent project'
+        ]},
+        {'title': 'Software Engineering Intern at SurveyMonkey, Summer 2016',
+         'tasks': [
+            'Created an event log to save and display the activity of a given account on the site',
+            'Utilized tools such as MySQL, Python, and Jinja2 to create a complete, full-stack product'
         ]},
         {'title': 'Software Engineering Intern at MITRE, Summer 2015',
          'tasks': [
-            'Prototyped a modern, thin client user interface for an existing system of record',
-            'Presented project to the upper level management at the Intern Innovation Brown Bag',
-            'Practiced agile scrum methods for collaboration with a software development team'
+            'Prototyped a user interface for an existing system of record',
+            'Presented at the Intern Innovation Brown Bag: an opportunity given to 4 intern groups out of 250 company-wide'
         ]},
+        {'title': 'Research Assistant at the Tufts University Avian Cognition Lab, 2013 - 2014',
+         'tasks': [
+            'Worked on the Visual Basic code for experiments',
+            'Coded a perceptron, a computer program that models a neuron, using C++'
+        ]}
         {'title': 'Intern at the Social Perception Lab at Dartmouth College, Summer 2012 and Summer 2014',
          'tasks': [
             'Adapted object and face recognition tests to be accessible online',
             'Developed a website on the topic of prosopagnosia in kids for parents and researchers'
-        ]},
-        {'title': 'Intern at the Cancer Risk Behaviors Group at Dartmouth College, Summer 2013',
-         'tasks': [
-            'Conducted a literature review resulting in a 72-article Endnote library',
-            "Analyzed content of fast food restaurants’ and alcohol brands’ websites"
         ]}
     ];
-    $scope.software= 'Photoshop, SPSS, Git, Linux';
-    $scope.languages = 'C, C++, Python, HTML/CSS, Javascript/AngularJS';
+    $scope.software= 'Git, Linux, Photoshop, SPSS';
+    $scope.languages = 'C, C++, Python, HTML/CSS, JavaScript/AngularJS, SQL';
     $scope.activities=[
-        'Senior Teaching Assistant and Lab Leader for Computer Science 0015 (a.k.a. "Data Structures")',
         'Project Leader and Programmer for JumboCode',
-        'Leadership Council member for Peer Health Exchange'
+        'Leadership Council member for Peer Health Exchange',
+        'Orientation Leader'
     ];
 });
