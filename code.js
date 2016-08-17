@@ -43,7 +43,7 @@ app.controller('resumeCtrl', function($scope) {
          'tasks': [
             'Worked on the Visual Basic code for experiments',
             'Coded a perceptron, a computer program that models a neuron, using C++'
-        ]}
+        ]},
         {'title': 'Intern at the Social Perception Lab at Dartmouth College, Summer 2012 and Summer 2014',
          'tasks': [
             'Adapted object and face recognition tests to be accessible online',
