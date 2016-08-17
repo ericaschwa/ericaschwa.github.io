@@ -2,10 +2,10 @@ var app = angular.module('resume', []);
     
 app.controller('resumeCtrl', function($scope) {
     $scope.education = [
-        {'school': 'Tufts University, Medford, MA, BS in Computer Science',
+        {'school': 'Tufts University, Medford, MA, BS in CS',
          'year': '09/2013 - 05/2017'},
 
-        {'school': 'CIEE Summer Language & Culture Program, Seville, Spain',
+        {'school': 'CIEE Language & Culture Program, Sevilla, ES',
         'year': '05/2014 - 06/2014'},
 
         {'school': 'Hanover High School, Hanover, NH', 'year': '09/2009 - 05/2013'}
@@ -27,7 +27,7 @@ app.controller('resumeCtrl', function($scope) {
         {'title': 'Teaching Fellow & Senior Lab Leader for Data Structures, 2015 - Present',
          'tasks': [
             'Directed discussion of topic matter and lab assignments',
-            'Developed & wrote specification for standard final project, as well as optional independent project'
+            'Developed & wrote specification for standard final project and independent final project'
         ]},
         {'title': 'Software Engineering Intern at SurveyMonkey, Summer 2016',
          'tasks': [
@@ -37,7 +37,7 @@ app.controller('resumeCtrl', function($scope) {
         {'title': 'Software Engineering Intern at MITRE, Summer 2015',
          'tasks': [
             'Prototyped a user interface for an existing system of record',
-            'Presented at the Intern Innovation Brown Bag: an opportunity given to 4 intern groups out of 250'
+            'Presented at the Intern Innovation Brown Bag: an opportunity given to only 4 intern groups'
         ]},
         {'title': 'Research Assistant at the Tufts University Avian Cognition Lab, 2013 - 2014',
          'tasks': [

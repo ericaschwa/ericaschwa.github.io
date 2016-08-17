@@ -22,7 +22,7 @@ li {
 
 li:before {
     content: "•  ";
-    color: #0D0D7A; /* or whatever color you prefer */
+    color: #0D0D7A;
     font-size: 20px;
 }
 .resume {
@@ -64,8 +64,11 @@ li:before {
     text-align: center;
 }
 body {
-        font-family: 'Raleway', sans-serif;
-        text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: left;
+    background-color: #FBFAFF
 }
 h4 {
     font-weight: bold;
