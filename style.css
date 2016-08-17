@@ -1,3 +1,7 @@
+.img-circle {
+    border-radius: 50%;
+    border:10px solid #0D0D7A;
+}
 .emphasize {
     color:#0D0D7A;
 }
