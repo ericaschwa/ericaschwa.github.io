@@ -14,25 +14,31 @@ app.controller('resumeCtrl', function($scope) {
         'Intro Computer Science',
         'Discrete Mathematics',
         'Data Structures',
-        'Machine Structure and Programming',
+        'Machine Structure & Programming',
         'Linear Algebra',
         'Multivariable Calculus',
         'Programming Languages',
         'Web Programming',
         'Wearable Devices',
         'Web Engineering',
-        'Theory of Computation'
+        'Theory of Computation',
+	'Abstract Algebra',
+	'Computer Security',
+	'Algorithms',
+	'Computational Biology',
+	'Machine Learning',
+	'Senior Thesis'
     ];
     $scope.experience = [
         {'title': 'Teaching Fellow & Senior Lab Leader for Data Structures, 2015 - Present',
          'tasks': [
-            'Directed discussion of topic matter and lab assignments',
-            'Developed & wrote specification for standard final project and independent final project'
+            'Directed discussion of topic matter & lab assignments',
+            'Developed & wrote specification for standard final project & independent final project'
         ]},
         {'title': 'Software Engineering Intern at SurveyMonkey, Summer 2016',
          'tasks': [
-            'Created an event log to save and display the activity of a given account on the site',
-            'Utilized tools such as MySQL, Python, and Jinja2 to create a complete, full-stack product'
+            'Created an event log to save & display the activity of a given account on the site',
+            'Utilized tools such as MySQL, Python, & Jinja2 to create a complete, full-stack product'
         ]},
         {'title': 'Software Engineering Intern at MITRE, Summer 2015',
          'tasks': [
@@ -44,16 +50,17 @@ app.controller('resumeCtrl', function($scope) {
             'Worked on the Visual Basic code for experiments',
             'Coded a perceptron, a computer program that models a neuron, using C++'
         ]},
-        {'title': 'Intern at the Social Perception Lab at Dartmouth College, Summer 2012 and Summer 2014',
+        {'title': 'Intern at the Social Perception Lab at Dartmouth College, Summer 2012 & Summer 2014',
          'tasks': [
-            'Adapted object and face recognition tests to be accessible online',
-            'Developed a website on the topic of prosopagnosia in kids for parents and researchers'
+            'Adapted object & face recognition tests to be accessible online',
+            'Developed a website on the topic of prosopagnosia in kids for parents & researchers'
         ]}
     ];
-    $scope.software= 'Git, Linux, Photoshop, SPSS';
+    $scope.software= 'Git, Linux, Jira, Photoshop, SPSS';
     $scope.languages = 'C, C++, Python, HTML/CSS, JavaScript/AngularJS, SQL';
     $scope.activities=[
-        'Project Leader and Programmer for JumboCode',
+        'Project Leader & Programmer for JumboCode',
+	'Career Development Officer for Women in Computer Science',
         'Leadership Council member for Peer Health Exchange',
         'Orientation Leader'
     ];
