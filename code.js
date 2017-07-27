@@ -3,15 +3,23 @@ var app = angular.module('resume', []);
 app.controller('resumeCtrl', function($scope) {
     $scope.education = [
         {'school': 'Tufts University, Medford, MA, BS in CS',
-         'year': '09/2013 - 05/2017'},
+         'year'  : '09/2013 - 05/2017',
+         'awards': ['Tufts-sponsored National Merit Scholarship',
+                    'Anna Quincy Churchill Prize for Biology',
+                    'Alpha Xi Delta Award',
+                    'Phi Beta Kappa',
+                    'Class of 1882 Prize scholarship',
+                    'Highest Senior Thesis Honors']},
 
         {'school': 'CIEE Language & Culture Program, Sevilla, ES',
-        'year': '05/2014 - 06/2014'},
+         'year'  : '05/2014 - 06/2014',
+         'awards': []},
 
-        {'school': 'Hanover High School, Hanover, NH', 'year': '09/2009 - 05/2013'}
+        {'school': 'Hanover High School, Hanover, NH',
+         'year'  : '09/2009 - 05/2013',
+         'awards': []}
     ];
-    $scope.courses = [
-        'Intro Computer Science',
+    $scope.courses1 = [
         'Discrete Mathematics',
         'Data Structures',
         'Machine Structure & Programming',
@@ -19,21 +27,24 @@ app.controller('resumeCtrl', function($scope) {
         'Multivariable Calculus',
         'Programming Languages',
         'Web Programming',
-        'Wearable Devices',
+        'Wearable Devices'
+    ];
+    $scope.courses2 = [
         'Web Engineering',
         'Theory of Computation',
-	'Abstract Algebra',
-	'Computer Security',
-	'Algorithms',
-	'Computational Biology',
-	'Machine Learning',
-	'Senior Thesis'
+        'Abstract Algebra',
+        'Computer Security',
+        'Algorithms',
+        'Computational Biology',
+        'Machine Learning',
+        'Senior Honors Thesis'
     ];
     $scope.experience = [
-        {'title': 'Teaching Fellow & Senior Lab Leader for Data Structures, 2015 - Present',
+        {'title': 'Teaching Fellow & Senior Lab Leader for Data Structures, 2015 - 2017',
          'tasks': [
             'Directed discussion of topic matter & lab assignments',
-            'Developed & wrote specification for standard final project & independent final project'
+            'Developed & wrote specs and reference implementations for labs, homeworks, & projects',
+            'Developed and executed an inclusivity training for TAs'
         ]},
         {'title': 'Software Engineering Intern at SurveyMonkey, Summer 2016',
          'tasks': [
@@ -60,8 +71,9 @@ app.controller('resumeCtrl', function($scope) {
     $scope.languages = 'C, C++, Python, HTML/CSS, JavaScript/AngularJS, SQL';
     $scope.activities=[
         'Project Leader & Programmer for JumboCode',
-	'Career Development Officer for Women in Computer Science',
+        'Career Development Officer for Women in Computer Science',
         'Leadership Council member for Peer Health Exchange',
-        'Orientation Leader'
+        'Orientation Leader',
+        'Biology On Call Tutor and Study Group Leader'
     ];
 });

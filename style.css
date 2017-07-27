@@ -48,6 +48,12 @@ li:before {
     z-index: 100;
     margin-left:20px;
 }
+.title {
+    font-size: 18px;
+    color:white;
+    z-index: 100;
+    margin-left:20px;
+}
 .mypic {
     width:140px;
     position: absolute;
