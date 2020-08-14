@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Level 4</title>
+    </head>
+
+    <body>
+    <script>
+    if (document.addEventListener) {
+        document.addEventListener('contextmenu', function(e) {
+            alert("You've tried to open context menu"); //here you draw your own menu
+            e.preventDefault();
+            window.location.href = "lskdfn.html";
+        }, false);
+    } else {
+        document.attachEvent('oncontextmenu', function() {
+            alert("You've tried to open context menu");
+            window.event.returnValue = false;
+            window.location.href = "lskdfn.html";
+        });
+    }
+    </script>
+    </body>
+</html>
