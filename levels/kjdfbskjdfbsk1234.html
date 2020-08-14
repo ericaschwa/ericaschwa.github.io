@@ -9,13 +9,13 @@
     <script>
     if (document.addEventListener) {
         document.addEventListener('contextmenu', function(e) {
-            alert("You've tried to open context menu"); //here you draw your own menu
+            alert("You've tried to open the console log"); //here you draw your own menu
             e.preventDefault();
             window.location.href = "lskdfn.html";
         }, false);
     } else {
         document.attachEvent('oncontextmenu', function() {
-            alert("You've tried to open context menu");
+            alert("You've tried to open the console log");
             window.event.returnValue = false;
             window.location.href = "lskdfn.html";
         });
