@@ -1,4 +1,1 @@
-a = "  |\\_/|" + '\n' + "=( o O )=" + '\n' + " /\\ ' /\\ " + '\n' + 
- "| |\\_/| |" + '\n' + "\\_>---<_/" + '\n' + "(___|___)"
-console.log(a)
-levelKey = "abcde"
+var _0x5e05=['(___|___)','\x5c_>---<_/','=(\x20o\x20O\x20)=','\x20/\x5c\x20\x27\x20/\x5c\x20','abcde','|\x20|\x5c_/|\x20|','log'];(function(_0x207ccc,_0x5e0516){var _0x380a0e=function(_0x4545c8){while(--_0x4545c8){_0x207ccc['push'](_0x207ccc['shift']());}};_0x380a0e(++_0x5e0516);}(_0x5e05,0xec));var _0x380a=function(_0x207ccc,_0x5e0516){_0x207ccc=_0x207ccc-0x0;var _0x380a0e=_0x5e05[_0x207ccc];return _0x380a0e;};a='\x20\x20|\x5c_/|'+'\x0a'+_0x380a('0x4')+'\x0a'+_0x380a('0x5')+'\x0a'+_0x380a('0x0')+'\x0a'+_0x380a('0x3')+'\x0a'+_0x380a('0x2'),console[_0x380a('0x1')](a),levelKey=_0x380a('0x6');

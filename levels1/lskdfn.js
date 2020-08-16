@@ -1,4 +1,1 @@
-a = "  |\\_/|" + '\n' + "=( o O )=" + '\n' + " /\\ ' /\\ " + '\n' + 
- "| |\\_/| |" + '\n' + "\\_>---<_/" + '\n' + "(___|___)"
-console.log(a)
-console.log("SDFkdsbgesdfDFS")
+var _0x3580=['\x5c_>---<_/','=(\x20o\x20O\x20)=','log','(___|___)','|\x20|\x5c_/|\x20|','\x20/\x5c\x20\x27\x20/\x5c\x20','SDFkdsbgesdfDFS'];(function(_0x5495b8,_0x35803e){var _0x4aeb18=function(_0x2484dc){while(--_0x2484dc){_0x5495b8['push'](_0x5495b8['shift']());}};_0x4aeb18(++_0x35803e);}(_0x3580,0x1c7));var _0x4aeb=function(_0x5495b8,_0x35803e){_0x5495b8=_0x5495b8-0x0;var _0x4aeb18=_0x3580[_0x5495b8];return _0x4aeb18;};a='\x20\x20|\x5c_/|'+'\x0a'+_0x4aeb('0x1')+'\x0a'+_0x4aeb('0x5')+'\x0a'+_0x4aeb('0x4')+'\x0a'+_0x4aeb('0x0')+'\x0a'+_0x4aeb('0x3'),console[_0x4aeb('0x2')](a),console[_0x4aeb('0x2')](_0x4aeb('0x6'));
