@@ -1,10 +1,10 @@
 // JavaScript
-console.log("is import the problem?")
+console.log("is import the problem?");
 import * as tf from '@tensorflow/tfjs';
-console.log("?")
+console.log("?");
 
-// my_function = tf.loadLayersModel('model.json');
-// console.log("loaded")
+my_function = tf.loadLayersModel('model.json');
+console.log("loaded");
 
 // state = []
 // for (i = 0; i < 1240; i++) {
